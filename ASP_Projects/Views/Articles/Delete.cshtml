@@ -1,0 +1,15 @@
+﻿@model ASP_Projects.Models.Articles
+
+
+<div class="delete-article">
+
+    <h1>DELETE</h1>
+
+    <p>Are you sure you want to delete <b>@Model.Title</b>?</p>
+
+    <form class="py-1" asp-action="Delete" asp-route-id="@Model.ID">
+        <button class="article-btn" type="submit">Delete</button>
+        <a class="article-btn" asp-action="Index">Back to List</a>
+    </form>
+
+</div>

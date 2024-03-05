@@ -1,0 +1,13 @@
+﻿@model ASP_Projects.Models.Articles
+
+
+<div class="details-article">
+
+    <h1>@Model.Title</h1>
+
+    <div class="article-details-content">
+        @Html.Raw(Model.Content)
+    </div>
+
+    <a class="article-btn" asp-action="Index">Back to List</a>
+</div>

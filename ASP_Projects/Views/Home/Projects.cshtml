@@ -1,0 +1,45 @@
+﻿<article id="project-article">
+    <section id="projects">
+        <div class="project-description">
+            <h2 class="project-title">Calculator</h2>
+            <p>Calculator made in C# windows forms</p>
+            <p>Utilizing: C#, OOP</p>
+            <p>Calculator is usable with mouse or with numeric keyboard keys.</p>
+        </div>
+        <a href="~/pictures/Calculator.jpg" title="Calculator in C#" rel="lightbox[Projects]">
+            <img src="~/pictures/Calculator-small.png" alt="Calculator in C#" />
+        </a>
+    </section>
+    <section id="projects">
+        <div class="project-description">
+            <h2 class="project-title">Tetris</h2>
+            <p>Tetris made in C# WPF</p>
+            <p>Utilizing: C#, OOP</p>
+            <p>Layout made with grit, blocks can rotate and be held.</p>
+        </div>
+        <a href="~/pictures/Tetris.jpg" title="Tetris in C#" rel="lightbox[Projects]">
+            <img src="~/pictures/Tetris-small.png" alt="Tetris in C#" />
+        </a>
+    </section>
+    <section id="projects">
+        <div class="project-description">
+            <h2 class="project-title">Website</h2>
+            <p>Website made in ASP.NET CORE</p>
+            <p>
+                Utilizing: MVC, MS-SQL database - using LocalDB, EFC,<br />
+                bootstrap and js library, dependency injection, html, css
+            </p>
+        </div>
+        <a href="~/pictures/website.png" title="Website I made" rel="lightbox[Projects]">
+            <img src="~/pictures/website-small.png" title="Website I made" />
+        </a>
+    </section>
+</article>
+
+@section CSS {
+    <link rel="stylesheet" href="~/lib/lightbox2/css/lightbox.min.css" asp-append-version="true" />
+}
+
+@section Scripts {
+    <script src="~/lib/lightbox2/js/lightbox.min.js" asp-append-version="true"></script>
+}

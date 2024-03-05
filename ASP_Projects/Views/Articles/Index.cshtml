@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ASP_Projects.Models.Articles>
+
+
+<div class="index-articles-title">
+    <h1>Articles</h1>
+
+    @if (User.IsInRole(UserRoles.Admin))
+    {
+        <p>
+            <a class="article-btn" asp-action="Create">Create New</a>
+        </p>
+    }
+</div>
+
+<ul class="index-articles">
+    @foreach (var item in Model)
+    {
+        <li class="list-group-item">
+            <h2><a asp-action="Details" asp-route-id="@item.ID" class="index-title-box">@item.Title</a></h2>
+            <p>@item.Description</p>
+            @if (User.IsInRole(UserRoles.Admin))
+            {
+                <p>
+                    <a asp-action="Edit" asp-route-id="@item.ID" class="index-articles-btn">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.ID" class="index-articles-btn">Delete</a>
+                </p>
+            }
+        </li>
+    }
+</ul>

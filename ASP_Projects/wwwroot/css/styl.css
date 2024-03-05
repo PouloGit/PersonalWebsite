@@ -1,0 +1,344 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family:"Poppins";
+    background-color: #1e2342;
+    color: #f0f0f0;
+}
+
+body > header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fc72a7;
+    padding: 20px 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9fbff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: hwb(300 76% 0%);
+    color: black;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../pictures/moon-blossom.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 90%;
+    background-size: cover;
+}
+
+.index-title {
+    position: absolute;
+    top: 32%; 
+    left: 50%; 
+    transform: translateX(-50%);
+    text-align: center;
+    color: #df86d3;
+    text-shadow: 2px 2px 4px #ac42af, -2px -2px 4px #5ab3ee;
+    font-size: 2em;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.authoriziation_buttons a {
+    display: inline-block;
+    background-color: #6e4efd; 
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.authoriziation_buttons a:hover {
+    background-color: #96c0ff;
+    color: black;
+}
+
+
+#project-article {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#projects {
+    display: flex;
+}
+
+#projects a {
+    display: block;
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+
+.project-description {
+    max-width: 60%;
+}
+
+.project-description p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#projects img {
+    border: 1px solid rgb(82, 17, 143);
+    padding: 2px;
+    box-shadow: 4px 4px 6px #9f56ff;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.index-articles-title {
+    text-align: center;
+    margin-top: 50px;
+    color: #2FE6FF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.index-articles .list-group-item {
+    margin: 20px 420px 30px 400px;
+    color: pink;
+    background-color: darkslateblue;
+    border-radius: 30px;
+}
+
+.index-articles .list-group-item a {
+    text-decoration: none;
+}
+
+.index-articles h2 a {
+    color: lightcoral;
+}
+
+.index-articles-btn {
+    background-color: #6e4efd;
+    color: purple;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+
+}
+
+.article-btn {
+    background-color: #6e4efd;
+    color: #f0f0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border-radius: 20px;
+    border: 0;
+}
+
+.index-articles-btn,
+.article-btn:hover {
+    background-color: #96c0ff;
+    color: black;
+}
+
+.details-article {
+    margin: 60px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.details-article h1 {
+    font-size: 3em;
+    color: #2FE6FF;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.details-article p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.delete-article {
+    margin-left: 40em;
+    margin-top: 20em;
+    position: fixed;
+    transform: translate(-20%, -20%);
+}
+
+.delete-article p {
+    font-size: 25px;
+}
+
+.delete-article h1 {
+    font-size: 35px;
+    color: red;
+}
+
+.create-article {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.registration-form-wrapper h1 {
+    text-align: center;
+    color: #71a6d8;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.registration-form-wrapper {
+    margin: 100px auto;
+    text-align: left;
+    max-width: 400px;
+    background-color: #1e2342;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.registration-form-wrapper .form-group {
+    margin-bottom: 20px;
+}
+
+.registration-form-wrapper .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.registration-form-wrapper .article-btn {
+    background-color: #6e4efd;
+    color: #f0f0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.registration-form-wrapper .article-btn:hover {
+    background-color: #96c0ff;
+    color: black;
+}
+
+.login-register-btn {
+    display: inline-block;
+    background-color: #6e4efd;
+    color: #f0f0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.login-register-btn:hover {
+    background-color: #96c0ff;
+    color: black;
+}
+
+.content {
+    margin: 20px; /* Added margin for spacing */
+    max-width: 800px;
+    padding: 20px;
+    text-align: left; /* Align content to the left */
+}
+
+.content h1 {
+    color: #fc72a7; 
+    margin-left: 0; 
+    font-size: 60px; 
+    margin-bottom: 20px; 
+}
+
+.content p {
+    font-size: 18px; /* Increased font size for better readability */
+    line-height: 1.6; /* Added spacing between lines */
+    margin-bottom: 15px; /* Added margin bottom for paragraph spacing */
+}
+
+.content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content li p {
+    margin-bottom: 5px;
+}
