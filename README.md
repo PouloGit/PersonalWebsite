@@ -13,7 +13,7 @@ Article page utilizing CRUD
 Reading the article about parrots
 ![ArticlesText](https://github.com/PouloGit/PersonalWebsite/assets/162190865/92fd723a-ffc7-452b-9fd6-b46b7de484c6)
 
-Site has login/register, information saved on local-DB, you can login as Admin that can Create/Edit/Delete articles
+Site has login/register, information is saved on local-DB, you can login as Admin that can Create/Edit/Delete articles
 
 Login page
 ![LoginPage](https://github.com/PouloGit/PersonalWebsite/assets/162190865/b9554eb8-be3a-45d0-abf5-18157fd29f7f)
