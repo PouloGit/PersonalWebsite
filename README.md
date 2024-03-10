@@ -1,9 +1,6 @@
 Home page
 ![HomePage](https://github.com/PouloGit/PersonalWebsite/assets/162190865/be96b264-b535-407a-97b5-00f3cc71ffd6)
 
-About page
-![AboutPage](https://github.com/PouloGit/PersonalWebsite/assets/162190865/37799879-8fb3-4ce0-9015-87f368b73aba)
-
 Projects page
 ![ProjectsPage](https://github.com/PouloGit/PersonalWebsite/assets/162190865/7a77bf68-4237-4c04-b82f-f99236c91c05)
 
